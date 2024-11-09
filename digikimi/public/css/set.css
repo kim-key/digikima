@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font1;
+}
+@font-face {
+    font-family: font1;
+    src: url('../public/fonts/IRANYekanWeb-Medium.eot');
+    src: url('../public/fonts/IRANYekanWeb-Medium.woff');
+    src: url('../public/fonts/IRANYekanWeb-Medium.woff2');
+    src: url('../public/fonts/IRANYekanWeb-Medium.ttf');
+}
+:root{
+    --Anti-Flash-White: #F2F2F2;
+    --Light-grayish-blue: #e0e0e2;
+    --Dark-Byzantine-Blue: #3f4064;
+    --Granite-Gray: #62666d;
+    --Zircon : #ECEEEE;
+    --unfriend : #029a49;
+    --persian-red : #d32f2f;
+    --cloud-burst: #23254e;
+    --deep-sky-blue: #007AFF;
+    --ocean: #007295;
+    --dark-traquoise: #00bfd6;
+    --woodsmoke: #0c0c0c;
+    --gun-power: #3f4064;
+    --topaz: #19bfd3;
+    --santa-grey: #a1a3a8;
+    --gunsmoke: #81858b;
+    --white: #f0f0f0;
+    --shuttle-grey: #62666D;
+    --seashell: #F0F0F1;
+    --dark-lavender: #7D4C9E;
+    --red-pink: #ef394e;
+    --silver-sand: #c0c2c5;
+}

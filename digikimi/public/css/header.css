@@ -1,0 +1,1658 @@
+header{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    .head1{
+        width: 100%;
+        height: 60px;
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            padding: 0px -50px;
+        }
+    }
+    .head2{
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 50px;
+        .right{
+            width: 70%;
+            height: 100%;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .logo{
+                width: 20%;
+                height: 100%;
+                background-color: #FFFFFF;
+                display: flex;
+                & img{
+                    width: 195px;
+                    height: 30px;
+                    object-fit: cover;
+                    margin: auto;
+
+                }
+            }
+            .searchbar{
+                width: 80%;
+                height: 100%;
+                padding: 0px 16px;
+                background-color: #FFFFFF;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                .searchicon{
+                    width: 24px;
+                    height: 40px;
+                    padding-right: 3px;
+                    background-color: var(--Light-grayish-blue);
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    text-align: center;
+                    line-height: 55px;
+                    outline: unset;   
+                }
+                & input{
+                    width: 600px;
+                    height: 40px;
+                    padding: 0px 12px;
+                    background-color: var(--Light-grayish-blue);
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border: 0;
+                    font-family: font1;
+                }
+            }
+        }
+        .left{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+            .register{
+                width: 132px;
+                height: 38px;
+                padding: 8px 16px;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                border: 1px solid var(--Light-grayish-blue);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                & img{
+                    margin-bottom: 1px;
+                }
+                & a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 11px;
+                    color: #0c0c0c;
+                }
+            }
+            .shop{
+                width: 40px;
+                height: 40px;
+                padding: 8px;
+                border-right: 2px solid var(--Light-grayish-blue) ;
+            }
+        }
+    }
+    .head3{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-flow: row wrap;
+        line-height: 38px;
+        padding: 0px 50px;
+        .right{
+            width: 80%;
+            height: 100%;
+            .sections{
+                width: 85%;
+                height: 100%;
+                padding: 0px 30px;;
+                display: flex;
+                flex-flow: row wrap;
+                .megam{
+                    width: 142px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    border-left: 1px solid var(--Light-grayish-blue);
+                    color: var(--Dark-Byzantine-Blue);
+                    position: relative;
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                        margin-top: 8px;
+                        margin-left: -10px;
+                    }
+                    & p{
+                        width: 142px;
+                        height: 30px;
+                        font-size: 14px;
+                    }
+                    & ul{
+                        width: 180px;
+                        height: auto;
+                        background-color: var(--seashell);
+                        position: absolute;
+                        top: 125%;
+                        list-style: none;
+                        z-index: 10;
+                        display: none;
+                        .line1{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            position: relative;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page1{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line2{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page2{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line3{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page3{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line4{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page4{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line5{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page5{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line6{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page6{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line7{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page7{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line8{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page8{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line9{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page9{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line10{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page10{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line11{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page11{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line12{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page12{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line13{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page13{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line14{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page14{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line15{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page15{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                        .line16{
+                            width: 100%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 10px;
+                            & li{
+                                font-size: 12px;
+                                margin-right: 20px;
+                                margin-top: 6px;
+                                cursor: pointer;
+                                color: var(--gun-power);
+                            }
+                            .page16{
+                                width: 925px;
+                                height: 640px; 
+                                position: absolute;
+                                top: 0;
+                                right: 100%;
+                                background-color: #FFFFFF;
+                                display: none;
+                                .mtop{
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    padding: 10px 30px;
+                                    a{
+                                        font-size: 12px;
+                                        text-decoration: none;
+                                        color: var(--topaz);
+                                    }
+                                }
+                                .mbottom{
+                                    width: 100%;
+                                    height: calc(640px - 60px);
+                                    display: flex;
+                                    overflow-y: scroll;
+                                    .sec1m , .sec2m , .sec3m ,.sec4m{
+                                        width: calc(100% / 4);
+                                        .titlem{
+                                            width: 100%;
+                                            height: 30px;
+                                            display: flex;
+                                            padding-right: 10px;
+                                            h3{
+                                                font-size: 12px;
+                                                padding-right: 10px;
+                                                color: #0c0c0c;
+                                                font-weight: lighter;
+                                                border-right: 3px solid var(--persian-red);
+                                                border-radius: 2px;
+                                                -webkit-border-radius: 2px;
+                                                -moz-border-radius: 2px;
+                                                -ms-border-radius: 2px;
+                                                -o-border-radius: 2px;
+                                            }
+                                        }
+                                        p{
+                                            width: 100%;
+                                            height: 40px;
+                                            font-size: 11px;
+                                            color: var(--gunsmoke);
+                                            text-justify: newspaper;
+                                            font-weight: lighter;
+                                            text-align: right;
+                                            padding-right: 10px;
+                                            padding-top: 5px;
+                                        }
+                                    }                             
+                                }                         
+                            }
+                        }
+                    }
+                    .line1:hover{
+                        background-color: #FFFFFF;
+                        .page1{
+                            display: block;
+                        }
+                    } 
+                    .line2:hover{
+                        background-color: #FFFFFF;
+                        .page2{
+                            display: block;
+                        }
+                    }
+                    .line3:hover{
+                        background-color: #FFFFFF;
+                        .page3{
+                            display: block;
+                        }
+                    }
+                    .line4:hover{
+                        background-color: #FFFFFF;
+                        .page4{
+                            display: block;
+                        }
+                    }
+                    .line5:hover{
+                        background-color: #FFFFFF;
+                        .page5{
+                            display: block;
+                        }
+                    }
+                    .line6:hover{
+                        background-color: #FFFFFF;
+                        .page6{
+                            display: block;
+                        }
+                    }
+                    .line7:hover{
+                        background-color: #FFFFFF;
+                        .page7{
+                            display: block;
+                        }
+                    }
+                    .line8:hover{
+                        background-color: #FFFFFF;
+                        .page8{
+                            display: block;
+                        }
+                    }
+                    .line9:hover{
+                        background-color: #FFFFFF;
+                        .page9{
+                            display: block;
+                        }
+                    }
+                    .line10:hover{
+                        background-color: #FFFFFF;
+                        .page10{
+                            display: block;
+                        }
+                    }
+                    .line11:hover{
+                        background-color: #FFFFFF;
+                        .page11{
+                            display: block;
+                        }
+                    }
+                    .line12:hover{
+                        background-color: #FFFFFF;
+                        .page12{
+                            display: block;
+                        }
+                    }
+                    .line13:hover{
+                        background-color: #FFFFFF;
+                        .page13{
+                            display: block;
+                        }
+                    }
+                    .line14:hover{
+                        background-color: #FFFFFF;
+                        .page14{
+                            display: block;
+                        }
+                    }
+                    .line15:hover{
+                        background-color: #FFFFFF;
+                        .page15{
+                            display: block;
+                        }
+                    }
+                    .line16:hover{
+                        background-color: #FFFFFF;
+                        .page16{
+                            display: block;
+                        }
+                    }
+                    &:hover{
+                        & ul{
+                            display: block;  
+                            transition-duration: 80000000ms; 
+                        }
+                    }
+                }
+                .sec2{
+                    width: 110px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                        margin-top: 9px;
+                        margin-left: -15px;
+                    }
+                    & a{
+                        width: 92px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+                .sec3{
+                    width: 100px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: -20px;
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                        margin-top: 10px;
+                        margin-left: -10px;
+                    }
+                    & p{
+                        width: 77.5px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                        
+                    }
+                }
+                .sec4{
+                    width: 100px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: -20px;
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                        margin-top: 10px;
+                        margin-left: -10px;
+                    }
+                    & p{
+                        width: 77px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+                .sec5{
+                    width: 130px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: -20px;
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                        margin-top: 10px;
+                        margin-left: -10px;
+                    }
+                    & p{
+                        width: 97px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+                .sec6{
+                    width: 170px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: -20px;
+                    svg{
+                        width: 24px;
+                        height: 24px;
+                        margin-top: 10px;
+                        margin-left: -10px;
+                    }
+                    & p{
+                        width: 136px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+                .sec7{
+                    width: 110px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    border-right: 1px solid var(--Light-grayish-blue);
+                    & p{
+                        width: 131px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+                .sec8{
+                    width: 140px;
+                    height: 40px;
+                    padding: 0px 12px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: -20px;
+                    & p{
+                        width: 131px;
+                        height: 26px;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        font-size: 10px;
+                        color: var(--Granite-Gray);
+                    }
+                }
+            }
+        }
+        .left{
+            width:20%;
+            height: 100%; 
+            display: flex;
+            & img{
+                width: 20px;
+                height: 20px;
+                margin-top: 9px;
+                
+            }
+            label{
+                padding-right: 15px;
+                & a{
+                    width: 180px ;
+                    height: 26px;
+                    font-size: 12px;
+                    padding: 0px 0px 4px;
+                    text-decoration: none;
+                    margin-right: -10px;
+                    color: var(--gun-power);
+                }
+            }
+            &:checked{
+                .shar{
+                    display: block;
+                }
+            }
+            input{
+                display: none;
+            }
+            .shar{
+                width: 465px;
+                height: 650px;
+                background-color: #FFFFFF;
+                position: absolute;
+                top: 100%;
+                left: 40%;
+                z-index: 100000;
+                overflow-y: scroll;
+                margin-top: 10px;
+                display: none;
+                label{
+                    height: 30px;
+                    cursor: pointer;
+                    padding-right: 390px;
+                    padding-top: 10px;  
+                    margin-top: 20px;
+                }
+                .loc{
+                    width: 100%;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 10px;
+                    h3{
+                        color: var(--topaz);
+                        font-size: 14px;
+                        margin-right: 10px;
+                        font-weight: lighter;
+                    }
+                }
+                p{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 15px;
+                    font-weight: lighter;
+                    color: var(--gun-power);
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,201 @@
+.part1sh{
+    width: 100%;
+    height: 920px;
+    padding: 0px 240px;
+    border-top: 1px solid var(--Light-grayish-blue);
+    .shegftred{
+        width: 100%;
+        & img{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .box1{
+        width: 100%;
+        height: 466px;
+        margin-bottom: 20px;
+        .swiper {
+            width: 100%;
+            height: 100%;
+            .swiper-wrapper{
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom-left-radius: 10px; 
+                    border-bottom-right-radius: 10px; 
+                    & img{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; 
+                        border-bottom-left-radius: 10px; 
+                        border-bottom-right-radius: 10px; 
+                    }
+                }
+            }
+        }
+    }
+    .box2{
+        width: 100%;
+        height: 344px;
+        background-color: var(--red-ribbon);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        .dailysh{
+            width: 100%;
+            height: 66px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            svg{
+                width: 24px;
+                height: 24px;
+            }
+            p{
+                font-size: 16px;
+                padding-right: 5px;
+                color: #fff;
+            }
+        }
+        .swiper {
+            width: 100%;
+            height: 100%;
+            .swiper-wrapper{
+                width: 100%;
+                height: 278px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                .swiper-slide{
+                    height: 258px;
+                    font-size: 18px;
+                    background: #fff;
+                    border-radius: 8px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    -ms-border-radius: 8px;
+                    -o-border-radius: 8px;
+                    .top{
+                        width: 100%;
+                        height: 40px;
+                        padding-left: 550px;
+                        padding-top: 10px;
+                        svg{
+                            text-align: right;
+                            margin-right: 20px;
+                        }
+                    }
+                    .bottom{
+                        width: 100%;
+                        height: 218px;
+                        display: flex;
+                        padding-right: 20px;
+                        .r{
+                            width: 200px;
+                            height: 200px;
+                            & img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                        .l{
+                            width: 75%;
+                            height: 100%;
+                            p{
+                                width: 100%;
+                                height: 60px;
+                                padding-top: 20px;
+                                padding-right: 20px;
+                                font-size: 12px;
+                            }
+                            .bs2{
+                                width: 100%;
+                                height: 40px;
+                                padding-right: 435px;
+                                display: flex;
+                                h2{
+                                    font-size: 12px;
+                                    color: var(--gun-power);
+                                    margin-left: 8px;
+                                }
+                            }
+                            .bs3{
+                                width: 100%;
+                                height: 30px;
+                                display: flex;
+                                .dis{
+                                    width: 35px;
+                                    height: 20px;
+                                    background-color: var(--persian-red);
+                                    border-radius: 10px;
+                                    margin-right: 13px;
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                    h3{
+                                        color: #fff;
+                                        font-size: 12px;
+                                        margin-top: 3px;
+                                        margin-right: 9px;
+                                        font-weight: lighter;
+                                    }
+                                }
+                                .price{
+                                    padding-right: 346px;
+                                    display: flex;
+                                    h4{
+                                        font-size: 14px;
+                                        color: var(--gun-power);
+                                        margin-left: 5px;
+                                        font-weight: lighter;
+                                    }
+                                }
+                            }
+                            .bs4{
+                                width: 100%;
+                                height: 40px ;
+                                del{
+                                    font-size: 12px;
+                                    font-weight: lighter;
+                                    color: var(--silver-sand);
+                                    padding-right: 400px;
+                                }
+                            }
+                            .bs5{
+                                width: 100%;
+                                height: 20px;
+                                h5{
+                                    font-size: 12px;
+                                    font-weight: lighter;
+                                    color: var(--red-pink);
+                                    padding-right: 415px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .swiper-pagination{
+                opacity: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
